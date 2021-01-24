@@ -1,0 +1,39 @@
+.nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    
+    width:40%;    
+}
+.navbar{
+    background-color:  #222831;
+    display: flex;
+ 
+}
+.nav li {
+    list-style-type: none;
+}
+.nav li a{
+    font-style: none;
+    color:white;
+    text-decoration: none;
+        
+    font-weight: 600;   
+} 
+
+.nav li a:hover {
+    color: #00adb5;
+    text-decoration: none;
+    
+}
+.navbar-header{
+    width:100%;
+    
+    display:flex;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-direction: row;
+    background-color: #222831;
+}
+
